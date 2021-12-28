@@ -8,7 +8,7 @@
         <action_update>false</action_update>
         <active>true</active>
         <add_message>false</add_message>
-        <advanced>false</advanced>
+        <advanced>true</advanced>
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
         <collection>incident</collection>
@@ -32,7 +32,7 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
 	// Add your code here
-
+	// Adding advanced condition to test Devops Change Control
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>saurabh.m@hcl.com</sys_created_by>
@@ -40,7 +40,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e99237231ba449101c7a415de54bcba5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>SM_BR_Test</sys_name>
         <sys_overrides/>
         <sys_package display_value="Servicenow-jenkins" source="x_hclte_servicenow">238880921b6881101c7a415de54bcbc7</sys_package>
@@ -48,7 +48,7 @@
         <sys_scope display_value="Servicenow-jenkins">238880921b6881101c7a415de54bcbc7</sys_scope>
         <sys_update_name>sys_script_e99237231ba449101c7a415de54bcba5</sys_update_name>
         <sys_updated_by>saurabh.m@hcl.com</sys_updated_by>
-        <sys_updated_on>2021-12-27 06:56:07</sys_updated_on>
+        <sys_updated_on>2021-12-28 11:28:16</sys_updated_on>
         <template>assignment_group=019ad92ec7230010393d265c95c260dd^assigned_to=ae1212f91bcc45d01c7a415de54bcb0f^EQ</template>
         <when>before</when>
     </sys_script>

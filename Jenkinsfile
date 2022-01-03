@@ -5,6 +5,7 @@ pipeline {
     CREDENTIALS = 'servicenow'
     DEVENV = 'https://hclnowintelligence.service-now.com'
     TESTENV = 'https://hcltechdemosls4.service-now.com'
+    TESTSUITEID = 'bf8c266d732333005ce769972bf6a777'
   }
     
 
@@ -23,6 +24,7 @@ stages {
            steps {
         snDevOpsChange()
         snInstallApp(credentialsId: "${CREDENTIALS}", url: "${TESTENV}", appSysId: "${APPSYSID}", baseAppAutoUpgrade: false)
+        snRunTestSuite(credentialsId: "${CREDENTIALS}", url: "${TESTENV}", testSuiteSysId: "${TESTSUITEID}", withResults: true)
 
       }
     }

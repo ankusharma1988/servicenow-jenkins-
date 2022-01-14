@@ -30,7 +30,7 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
 	// Add your code here
-	// Demo to Rajiv sir
+	// Demo to Rajiv sir 14th Jan 2022
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>saurabh.m@hcl.com</sys_created_by>
@@ -38,7 +38,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>42261e211b4d81101c7a415de54bcbe2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Demo to Boss</sys_name>
         <sys_overrides/>
         <sys_package display_value="Servicenow-jenkins" source="x_hclte_servicenow">238880921b6881101c7a415de54bcbc7</sys_package>
@@ -46,7 +46,7 @@
         <sys_scope display_value="Servicenow-jenkins">238880921b6881101c7a415de54bcbc7</sys_scope>
         <sys_update_name>sys_script_42261e211b4d81101c7a415de54bcbe2</sys_update_name>
         <sys_updated_by>saurabh.m@hcl.com</sys_updated_by>
-        <sys_updated_on>2022-01-14 15:33:26</sys_updated_on>
+        <sys_updated_on>2022-01-14 15:37:21</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
